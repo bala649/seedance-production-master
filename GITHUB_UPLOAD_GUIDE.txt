@@ -1,0 +1,39 @@
+GitHub 上传步骤（小白版）
+
+1. 打开 https://github.com 并登录。
+2. 右上角点击 + → New repository。
+3. Repository name 填：
+   seedance-production-master
+4. 建议先选 Private；以后想公开再改 Public。
+5. 不勾选 “Add a README file”，因为本安装包里已经有 README.md。
+6. 点击 Create repository。
+7. 在新仓库页面点击 “uploading an existing file”。
+8. 把本 ZIP 解压后的所有内容拖进去。
+   注意：必须上传隐藏目录 `.agents`，不要只上传 plugins 文件夹。
+9. Commit message 可填：
+   Initial Seedance Production Master v1.0.0
+10. 点击 Commit changes。
+
+上传完成后，仓库首页应该同时看到：
+- .agents
+- plugins
+- README.md
+
+Codex 安装：
+1. 打开 Codex。
+2. 输入 /plugins。
+3. 进入 Add Marketplace。
+4. 输入：
+   你的GitHub用户名/seedance-production-master
+5. Marketplace 加载后找到：
+   seedance-production-master
+6. 安装 / 启用。
+7. 新建一个 Codex 会话。
+8. 测试：
+   使用 $seedance-production-master，
+   告诉我单个 Seedance 生成组的硬上限，以及你是否会无授权修改锁定剧本。
+
+正确核心结果：
+- 硬上限 28 秒；
+- 按剧情/台词/场景/动作/VFX/容量自然分组；
+- 不无授权修改锁定剧本。

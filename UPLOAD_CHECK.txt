@@ -1,0 +1,16 @@
+上传前只确认一件事：
+
+解压后，进入 seedance-production-master-github-FULL 文件夹，
+按 Ctrl+A 全选这个文件夹里面的所有内容一起拖到 GitHub。
+
+仓库根目录最终必须包含：
+.agents/
+plugins/
+README.md
+GITHUB_UPLOAD_GUIDE.txt
+
+其中必须存在：
+.agents/plugins/marketplace.json
+plugins/seedance-production-master/.codex-plugin/plugin.json
+
+不要把最外层 seedance-production-master-github-FULL 文件夹本身拖进去。
