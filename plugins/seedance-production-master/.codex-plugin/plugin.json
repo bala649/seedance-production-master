@@ -1,0 +1,27 @@
+{
+  "name": "seedance-production-master",
+  "version": "1.0.0",
+  "description": "Director-execution and prompt-production workflow for turning scripts, visual scripts, storyboards, and generated-video feedback into stable Seedance 2.0/2.5 production prompts.",
+  "author": {
+    "name": "Personal"
+  },
+  "keywords": [
+    "seedance",
+    "ai-video",
+    "storyboard",
+    "filmmaking",
+    "continuity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Seedance Production Master",
+    "shortDescription": "AI影视导演分镜与Seedance执行",
+    "longDescription": "把小说、剧本、可视化剧本或既有Seedance提示词转成可独立复制的生成组，并进行资产、空间、动作、摄影、表演、VFX、连续性和生成结果返修。",
+    "developerName": "Personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ]
+  }
+}
